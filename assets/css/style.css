@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fff;
+}
+
+header {
+    background-color: #42032C;
+    color: #E6D2AA;
+}
+
+header img {
+    max-height: 10em;
+}
+
+nav {
+}
+
+ul {
+
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    color: #E6D2AA;
+}
+
+footer {
+    text-align: center;
+}
+
+figure {
+    outline
+}
