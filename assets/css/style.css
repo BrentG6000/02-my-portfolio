@@ -6,15 +6,34 @@
 
 body {
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 header {
     background-color: #42032C;
     color: #E6D2AA;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-header img {
-    max-height: 10em;
+header h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 6rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#selfie {
+    max-height: 25em;
+    margin: 10em 0em;
 }
 
 nav {
