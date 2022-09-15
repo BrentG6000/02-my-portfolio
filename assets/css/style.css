@@ -1,3 +1,9 @@
+:root {
+    --dark: #42032C;
+    --light: #fff;
+    --navlink-color: #b9c6ae;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -5,14 +11,14 @@
 }
 
 body {
-    background-color: #fff;
+    background-color: var(--light);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
 
 header {
-    background-color: #42032C;
+    background-color: var(--dark);
     color: #E6D2AA;
     display: flex;
     flex-direction: column;
@@ -33,14 +39,44 @@ main {
 
 #selfie {
     max-height: 25em;
-    margin: 10em 0em;
+    margin-top: 10em;
 }
 
-nav {
+section {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    align-items: center;
+    row-gap: 10em;
+    width: 100%;
+}
+
+div h2 {
+    font-size: 4rem;
+    align-self: center;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 0.25em solid var(--dark);
+    width: 90%;
+    padding: 5em;
+}
+
+.clickpic {
+    max-height: 25em;
+    
+}
+
+.clickpic:hover {
+    transform: scale(1.1)
 }
 
 ul {
-
+    padding-bottom: 1em;
 }
 
 li {
@@ -53,8 +89,4 @@ li a {
 
 footer {
     text-align: center;
-}
-
-figure {
-    outline
 }
