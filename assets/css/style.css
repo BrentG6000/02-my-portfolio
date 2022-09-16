@@ -26,7 +26,7 @@ header {
     align-items: center;
 }
 
-header h1 {
+h1 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 6rem;
 }
@@ -39,7 +39,7 @@ main {
 
 #selfie {
     max-height: 25em;
-    margin-top: 10em;
+    margin: 10em 0em;
 }
 
 section {
@@ -57,7 +57,7 @@ div h2 {
     align-self: center;
 }
 
-div {
+.topicbox {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -66,9 +66,25 @@ div {
     padding: 5em;
 }
 
+.portpic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-size: 1.25rem;
+    padding-bottom: 1em;;
+}
+
 .clickpic {
-    max-height: 25em;
-    
+    max-height: 15em;
 }
 
 .clickpic:hover {
@@ -89,4 +105,41 @@ li a {
 
 footer {
     text-align: center;
+}
+
+@media screen and (max-width: 1500px) {
+    .clickpic {
+        max-height: 12em;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .topicbox {
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+    }
+    h3 {
+        font-size: 1rem;
+        padding-bottom: 0.5em;
+        padding-top: 1.5em;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .clickpic {
+        max-height: 8em;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    div h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 0.75rem;
+        padding-bottom: 0.5em;
+    }
 }
