@@ -39,7 +39,7 @@ main {
 
 #selfie {
     max-height: 25em;
-    margin: 10em 0em;
+    margin: 6em 0em;
 }
 
 section {
@@ -91,8 +91,33 @@ h3 {
     transform: scale(1.1)
 }
 
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact p {
+    font-size: 1.75rem;
+    margin-top: 1.5em;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about p {
+    margin-top: 3em;
+    margin-bottom: 2em;
+    font-size: 1.5rem;
+}
+
 ul {
-    padding-bottom: 1em;
+    padding-bottom: 2em;
 }
 
 li {
@@ -114,7 +139,7 @@ footer {
 }
 
 @media screen and (max-width: 1300px) {
-    .topicbox {
+    #portfolio {
         flex-direction: column-reverse;
         justify-content: space-evenly;
     }
@@ -122,6 +147,9 @@ footer {
         font-size: 1rem;
         padding-bottom: 0.5em;
         padding-top: 1.5em;
+    }
+    #about p{
+        font-size: 1rem;
     }
 }
 
@@ -141,5 +169,13 @@ footer {
     h3 {
         font-size: 0.75rem;
         padding-bottom: 0.5em;
+    }
+
+    #about p, #contact p {
+        font-size: 0.75rem;
+    }
+
+    ul {
+        padding-bottom: 0.25em;
     }
 }
