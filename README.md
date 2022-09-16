@@ -6,12 +6,15 @@ This web app is designed to be a sample web developer portfolio. This was create
 
 ## Usage
 
+The web app can be seen here: https://brentg6000.github.io/02-my-portfolio/
+
 The portfolio site has links to my web app projects. Just click on the screenshot pictures in the portfolio section.
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
-![screenshot](assets/images/Screenshot 2022-09-15 at 21-02-40 Brent Gustafson.png)
-
+```md
+![screenshot](assets/images/Screenshot2.png)
+```
 ## License
 
 MIT License
