@@ -12,9 +12,8 @@ The portfolio site has links to my web app projects. Just click on the screensho
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
-```md
-![screenshot](assets/images/Screenshot2.png)
-```
+![screenshot](/assets/images/Screenshot2.png)
+
 ## License
 
 MIT License
